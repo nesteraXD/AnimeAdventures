@@ -41,11 +41,6 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
 local args = {
-    [1] = "noclypso",
-}
-
-game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
-local args = {
     [1] = "RELEASE",
 }
 
@@ -56,7 +51,12 @@ local args = {
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
 local args = {
-    [1] = "SORRYFORSHUTDOWN",
+    [1] = "SUBTOMAOKUMA",
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
+local args = {
+    [1] = "GINYUFIX",
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
