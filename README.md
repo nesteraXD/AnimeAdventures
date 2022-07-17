@@ -60,4 +60,13 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
+local args = {
+    [1] = "MARINEFORD",
+}
 
+game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
+local args = {
+    [1] = "DATAFIX",
+}
+
+game:GetService("ReplicatedStorage").endpoints.client_to_server.redeem_code:InvokeServer(unpack(args))
